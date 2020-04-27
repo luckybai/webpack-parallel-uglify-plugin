@@ -1,7 +1,7 @@
 import test from 'ava';
 import sinon from 'sinon';
 import os from 'os';
-import uglifyJS from 'uglify-js';
+import uglifyJS from 'terser';
 import escodegen from 'escodegen';
 import { parse } from 'acorn';
 import { SourceMapSource } from 'webpack-sources';
